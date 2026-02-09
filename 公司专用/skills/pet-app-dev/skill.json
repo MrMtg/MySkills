@@ -1,0 +1,56 @@
+{
+  "name": "pet-app-dev",
+  "description": "宠物APP开发指南技能 - 基于uni-app x框架的宠物类应用开发专家助手，包含产品决策文档、导航布局设计和uni-app x技术规范",
+  "version": "1.0.0",
+  "created": "2026-01-27",
+  "category": "development",
+  "tags": ["uni-app-x", "pet-app", "mobile-dev", "uvue", "uts"],
+  "author": "Decision Team",
+  "metadata": {
+    "tech_stack": {
+      "framework": "uni-app x",
+      "language": "uts",
+      "rendering": "uvue",
+      "styling": "ucss"
+    },
+    "product_requirements": {
+      "navigation": ["首页", "服务", "社区", "我的"],
+      "mvp_features": [
+        "宠物档案管理",
+        "宠物日历管理",
+        "AI预问诊",
+        "简易社区",
+        "权益资产系统",
+        "医院清单"
+      ],
+      "excluded_features": [
+        "智能硬件控制",
+        "AI视觉识别",
+        "复杂AIGC功能",
+        "自营商城"
+      ]
+    },
+    "boss_requirements": {
+      "simplicity": "界面简洁，功能聚焦",
+      "commercial": "保障商业赚钱",
+      "retention": "简单好用，提升用户粘性"
+    }
+  },
+  "capabilities": [
+    "检查开发需求是否符合产品决策文档",
+    "提供uni-app x代码示例",
+    "指出潜在技术问题",
+    "给出优化建议（性能、用户体验、商业转化）",
+    "验证代码符合uni-app x规范",
+    "提供组件使用建议"
+  ],
+  "references": [
+    "https://doc.dcloud.net.cn/uni-app-x/"
+  ],
+  "examples": [
+    "用uni-app x开发宠物档案页面",
+    "实现首页的宠物切换卡片",
+    "做社区的发帖功能",
+    "这个uni-app x代码有什么问题？"
+  ]
+}
