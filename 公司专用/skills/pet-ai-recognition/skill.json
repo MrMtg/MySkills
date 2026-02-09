@@ -1,0 +1,31 @@
+{
+  "name": "pet-ai-recognition",
+  "description": "宠物AI识别类页面开发技能 - 专注于宠物排泄物、呕吐物、皮肤、眼耳口等AI健康识别页面的SPA开发，包含徽章系统集成和后端API联调",
+  "version": "1.0.0",
+  "created": "2026-02-09",
+  "category": "development",
+  "tags": ["pet-ai", "spa", "html", "badge-system", "api-integration"],
+  "author": "AI Assistant",
+  "metadata": {
+    "tech_stack": {
+      "framework": "纯HTML SPA",
+      "language": "JavaScript",
+      "styling": "CSS + TailwindCSS"
+    },
+    "api_servers": {
+      "ai_service": "http://192.168.2.148:19000",
+      "badge_system": "http://192.168.2.147:19000"
+    }
+  },
+  "capabilities": [
+    "快速搭建宠物AI识别类SPA页面",
+    "集成导航徽章系统（权益+宠豆）",
+    "后端API联调和数据对接",
+    "问题记录和经验沉淀"
+  ],
+  "references": [
+    "导航徽章系统复用文档.md",
+    "前后端API联调开发经验指南.md",
+    "问题记录汇总.md"
+  ]
+}
