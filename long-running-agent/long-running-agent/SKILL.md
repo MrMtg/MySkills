@@ -44,20 +44,32 @@ tags: [agent, workflow, automation, long-running, project-management, spec-drive
 
 ## 快速开始
 
+### 全局安装（推荐）
+
+```bash
+# 1. 复制初始化脚本到系统路径
+cp /path/to/Auto_agents/init-project.sh ~/bin/
+chmod +x ~/bin/init-project.sh
+
+# 2. 添加到 PATH（如果需要）
+echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+
+# 3. 在任何新项目中使用
+mkdir my-project && cd my-project
+init-project  # 或 ~/bin/init-project.sh
+```
+
 ### 规格驱动模式（推荐用于复杂项目）
 
 ```bash
-# 1. 初始化规格驱动模式
+# 使用全局初始化脚本
+init-project
+# 选择：1) 规格驱动模式
+
+# 或手动运行
 ./spec-driven-init.sh
 
-# 2. 输入项目描述（一句话）
-
-# 3. 对 Claude 说："开始规格澄清"
-#    Claude 会自动读取 MINIMAL_SPEC.txt 并开始系统性提问
-
-# 4. 回答问题，Claude 生成完整的 SPEC.md
-
-# 5. 新建干净会话，让 Claude 按 SPEC.md 自主开发
+# 然后对 Claude 说："开始规格澄清"
 ```
 
 ### 传统模式
